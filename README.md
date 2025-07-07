@@ -15,7 +15,7 @@ A modern full-stack eCommerce platform for electronic gadgets, built with **Next
 
 ```bash
 git clone https://github.com/yourusername/PRODIGY_FS_03.git
-cd vixkart
+cd PRODIGY_FS_03
 npm install
 npm run dev
 ```
