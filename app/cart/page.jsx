@@ -17,7 +17,7 @@ const Cart = () => {
         <div className="flex-1">
           <div className="flex items-center justify-between mb-8 border-b border-gray-500/30 pb-6">
             <p className="text-2xl md:text-3xl text-gray-500">
-              Your <span className="font-medium text-red-500">Cart</span>
+              Your <span className="font-medium text-pink-500">Cart</span>
             </p>
             <p className="text-lg md:text-xl text-gray-500/80">{getCartCount()} Items</p>
           </div>
@@ -102,7 +102,7 @@ const Cart = () => {
               </tbody>
             </table>
           </div>
-          <button onClick={()=> router.push('/all-products')} className="group flex items-center mt-6 gap-2 text-red-500">
+          <button onClick={()=> router.push('/all-products')} className="group flex items-center mt-6 gap-2 text-gray-500">
             <Image
               className="group-hover:-translate-x-1 transition"
               src={assets.arrow_right_icon_colored}
