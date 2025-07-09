@@ -21,7 +21,7 @@ export const AppContextProvider = (props) => {
 
   const [products, setProducts] = useState([]);
   const [userData, setUserData] = useState(false);
-  const [isSeller, setIsSeller] = useState(true);
+  const [isSeller, setIsSeller] = useState(false);
   const [cartItems, setCartItems] = useState({});
 
   const fetchProductData = async () => {
@@ -38,7 +38,6 @@ export const AppContextProvider = (props) => {
   };
 
   const fetchUserData = async () => {
-    // setUserData(userDummyData);
     try {
       if (user.publicMetadata.role === "seller") {
         setIsSeller(true);
