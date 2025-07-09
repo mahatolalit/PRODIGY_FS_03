@@ -88,7 +88,7 @@ const HeaderSlider = () => {
             key={index}
             onClick={() => handleSlideChange(index)}
             className={`h-2 w-2 rounded-full cursor-pointer ${
-              currentSlide === index ? "bg-orange-600" : "bg-gray-500/30"
+              currentSlide === index ? "bg-gradient-to-r from-purple-600 to-pink-500" : "bg-gray-500/30"
             }`}
           ></div>
         ))}
