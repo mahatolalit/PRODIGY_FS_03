@@ -6,7 +6,14 @@ const Footer = () => {
   return (
     <div className="flex md:flex-row flex-col-reverse items-center justify-between text-left w-full px-10">
       <div className="flex items-center gap-4">
-        <Image className="hidden md:block" src={assets.logo} alt="logo" />
+        <div className="flex items-center space-x-2 cursor-pointer" onClick={() => router.push('/')}>
+        <div className="text-white bg-gradient-to-r from-purple-600 to-pink-500 px-2 py-1 rounded-lg text-xl font-extrabold tracking-tight shadow-md">
+          Vix
+        </div>
+        <span className="text-xl font-bold text-gray-800 dark:text-gray-800">
+          Kart
+        </span>
+      </div>
         <div className="hidden md:block h-7 w-px bg-gray-500/60"></div>
       </div>
       <div className="flex items-center gap-3">

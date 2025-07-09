@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="text-white bg-gradient-to-r from-purple-600 to-pink-500 px-2 py-1 rounded-lg text-xl font-extrabold tracking-tight shadow-md">
           Vix
         </div>
-        <span className="text-xl font-bold text-gray-800 dark:text-white">
+        <span className="text-xl font-bold text-gray-800 dark:text-gray-800">
           Kart
         </span>
       </div>
